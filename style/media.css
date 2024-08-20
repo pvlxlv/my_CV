@@ -1,0 +1,108 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
+/* FONT */
+/* COLORS: PRIMITIVES */
+/* COLORS: SEMANTIC */
+/* COLORS: GREY */
+/* COLORS: PRIMARY */
+@media screen and (max-width: 1260px) {
+  .container {
+    padding: 0 56px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    padding: 0 56px;
+    position: relative;
+  }
+  .nav-burger {
+    display: initial;
+    cursor: pointer;
+  }
+  .main-nav {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    top: 280px;
+    border: none;
+  }
+  .main-nav .nav-links {
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 32px;
+    margin: 56px;
+    background-color: #1D1D1B;
+    border: 1px solid #3A3A36;
+    border-radius: 56px;
+  }
+  .main-nav .nav-links li {
+    width: 100%;
+  }
+  .main-nav .nav-links li a {
+    width: 100%;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 769px) {
+  h1, h2 {
+    line-height: 100%;
+  }
+  h1 {
+    margin-bottom: 16px;
+  }
+  #hero-banner .banner-description .main {
+    flex-direction: column;
+    gap: 0;
+  }
+  #hero-banner .banner-description .main p {
+    font-size: 16px;
+    line-height: 30px;
+  }
+  #hero-banner .banner-description .main p:after {
+    content: ".";
+  }
+  #hero-banner .banner-description .main p:before {
+    content: "• ";
+  }
+}
+@media screen and (max-width: 520px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  .container {
+    padding: 0 24px;
+  }
+  #hero-banner {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  #hero-banner .banner-intro {
+    margin-bottom: 40px;
+  }
+  #hero-banner .banner-links {
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+  }
+  #hero-banner .banner-links a {
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

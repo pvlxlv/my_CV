@@ -1,0 +1,67 @@
+/* FONT */
+$font-family: "Poppins", sans-serif;
+
+
+/* COLORS: PRIMITIVES */
+$grey-50: #F5F5F4;
+$grey-100: #E9E9E7;
+$grey-200: #D2D3CF;
+$grey-300: #BCBDB9;
+$grey-400: #A6A6A0;
+$grey-500: #909189;
+$grey-600: #73746C;
+$grey-700: #565752;
+$grey-800: #3A3A36;
+$grey-900: #1D1D1B;
+$grey-950: #10100F;
+
+$primary-300: #EBFF66;
+$primary-500: #DBFF00;
+$primary-600: #B2CD00;
+$primary-700: #859A00;
+$primary-800: #586601;
+$primary-900: #2D3300;
+$primary-950: #171900;
+
+$red-700: #9A1E0E;
+$red-900: #330A05;
+$red-950: #160401;
+
+$green-50: #EDFEF2;
+$green-700: #0AAF45 ;
+$green-900: #043816;
+$green-950: #031C0A;
+
+
+/* COLORS: SEMANTIC */
+/* COLORS: GREY */
+
+$text-title: $grey-50;
+$text-body: $grey-100;
+$text-subtitle: $grey-200;
+$text-caption: $grey-300;
+$text-disabled: $grey-600;
+$text-negative: $grey-900;
+
+$border-lighter: $grey-600;
+$border-default: $grey-700;
+$border-subtle: $grey-800;
+
+$surface-disabled: $grey-800;
+$surface-default: $grey-900;
+$surface-subtle: $grey-950;
+
+/* COLORS: PRIMARY */
+$surface-primary-lighter: $primary-300;
+$surface-primary-default: $primary-500;
+$surface-primary-darker: $primary-600;
+$surface-primary-subtle: $primary-900;
+
+$border-primary-lighter: $primary-300;
+$border-primary-default: $primary-500;
+$border-primary-darker: $primary-600;
+$border-primary-subtle: $primary-800;
+
+$text-primary-lighter: $primary-300;
+$text-primary-default: $primary-500;
+$text-primary-darker: $primary-600;

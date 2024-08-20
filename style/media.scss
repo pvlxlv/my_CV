@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import "variables";
+$size-56: 56px;
+
+@media screen and (max-width: 1260px){
+  .container {
+    padding: 0 $size-56;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .container {
+    padding: 0 $size-56;
+    position: relative;
+  }
+
+  .nav-burger {
+    display: initial;
+    cursor: pointer;
+  }
+  .main-nav {
+    display: none;
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+    top: 280px;
+    border: none;
+    .nav-links {
+      width: 100%;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 32px;
+      margin: $size-56;
+      background-color: $surface-default;
+      border: 1px solid $border-subtle;
+      border-radius: $size-56;
+      li {
+        width: 100%;
+        a {
+          width: 100%;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 769px) {
+  h1, h2 {
+    line-height: 100%;
+  }
+  h1 {
+    margin-bottom: 16px;
+  }
+  #hero-banner {
+    .banner-description {
+      .main {
+        flex-direction: column;
+        gap: 0;
+        p {
+          font-size: 16px;
+          line-height:30px;
+          &:after {
+            content: ".";
+          }
+          &:before {
+            content: "• ";
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 520px){
+  h1 {
+    font-size: 64px;
+
+  }
+  h2 {
+    font-size: 32px;
+  }
+
+  .container {
+    padding: 0 24px;
+  }
+
+  #hero-banner {
+    padding-top: $size-56;
+    padding-bottom: $size-56;
+    .banner-intro {
+      margin-bottom: 40px;
+    }
+    .banner-links {
+      flex-direction: column;
+      justify-content: center;
+      gap: 32px;
+      a {
+        justify-content: center;
+      }
+      .btn-ic{
+
+      }
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 360px){
+
+  h1 {
+    font-size: 56px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  .container {
+    padding: 0 16px;
+  }
+
+
+}
