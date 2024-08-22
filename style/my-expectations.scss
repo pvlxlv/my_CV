@@ -18,39 +18,43 @@
         border-radius: 40px;
         padding: 56px;
         li {
-          padding-left: 40px;
+          //padding-left: 40px;
           margin-bottom: 16px;
           display: flex;
-          margin-left: -10px;
+          //margin-left: -10px;
           gap: 8px;
-          position: relative;
-          &:before {
-            position: absolute;
-            left: 0;
-            content: "";
-            width: 32px;
-            height: 32px;
-            display: inline-block;
-          }
+          //position: relative;
+          //&:before {
+          //  position: absolute;
+          //  left: 0;
+          //  content: "";
+          //  width: 32px;
+          //  height: 32px;
+          //  display: inline-block;
+          //}
           &:last-of-type {
             margin-bottom: 0;
+          }
+          span {
+            flex-basis: 0;
+            flex-grow: 1;
           }
         }
         &.exp-positive {
           border-color: $green-900;
           background: $green-950;
           color: $green-50;
-          li:before {
-            background-image: url("../assets/ic_circle-check-list.svg");
-          }
+          //li:before {
+          //  background-image: url("../assets/ic_circle-check-list.svg");
+          //}
         }
         &.exp-negative {
           border-color: $red-900;
           background: $red-950;
           color: $text-disabled;
-          li:before {
-            background-image: url("../assets/ic_circle-x-list.svg");
-          }
+          //li:before {
+          //  background-image: url("../assets/ic_circle-x-list.svg");
+          //}
         }
 
       }

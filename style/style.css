@@ -82,6 +82,18 @@ h3 {
   justify-content: center;
 }
 
+.icon-24 {
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+.icon-32 {
+  width: 32px;
+  height: 32px;
+  display: block;
+}
+
 /* FONT */
 /* COLORS: PRIMITIVES */
 /* COLORS: SEMANTIC */
@@ -143,19 +155,8 @@ h3 {
   background-color: #10100F;
 }
 
-.btn-download:before {
-  content: "";
+.btn-download svg {
   margin-right: 2px;
-  width: 24px;
-  height: 24px;
-}
-
-.btn-secondary.btn-download:before {
-  background-image: url("../assets/ic_document-download.svg");
-}
-
-.btn-primary.btn-download:before {
-  background-image: url("../assets/ic_document-download-bk.svg");
 }
 
 /* FONT */
@@ -446,39 +447,26 @@ header.container {
   padding: 56px;
 }
 #my-expectations .expectations-wrapper .expectation li {
-  padding-left: 40px;
   margin-bottom: 16px;
   display: flex;
-  margin-left: -10px;
   gap: 8px;
-  position: relative;
-}
-#my-expectations .expectations-wrapper .expectation li:before {
-  position: absolute;
-  left: 0;
-  content: "";
-  width: 32px;
-  height: 32px;
-  display: inline-block;
 }
 #my-expectations .expectations-wrapper .expectation li:last-of-type {
   margin-bottom: 0;
+}
+#my-expectations .expectations-wrapper .expectation li span {
+  flex-basis: 0;
+  flex-grow: 1;
 }
 #my-expectations .expectations-wrapper .expectation.exp-positive {
   border-color: #043816;
   background: #031C0A;
   color: #EDFEF2;
 }
-#my-expectations .expectations-wrapper .expectation.exp-positive li:before {
-  background-image: url("../assets/ic_circle-check-list.svg");
-}
 #my-expectations .expectations-wrapper .expectation.exp-negative {
   border-color: #330A05;
   background: #160401;
   color: #73746C;
-}
-#my-expectations .expectations-wrapper .expectation.exp-negative li:before {
-  background-image: url("../assets/ic_circle-x-list.svg");
 }
 
 /* FONT */

@@ -53,17 +53,23 @@
   }
 }
 
-.btn-download:before {
-  content: "";
-  margin-right: 2px;
-  width: 24px;
-  height: 24px;
+.btn-download {
+  svg {
+    margin-right: 2px;
+  }
 }
 
-.btn-secondary.btn-download:before {
-  background-image: url("../assets/ic_document-download.svg");
-}
-
-.btn-primary.btn-download:before {
-  background-image: url("../assets/ic_document-download-bk.svg");
-}
+//.btn-download:before {
+//  content: "";
+//  margin-right: 2px;
+//  width: 24px;
+//  height: 24px;
+//}
+//
+//.btn-secondary.btn-download:before {
+//  background-image: url("../assets/ic_document-download.svg");
+//}
+//
+//.btn-primary.btn-download:before {
+//  background-image: url("../assets/ic_document-download-bk.svg");
+//}

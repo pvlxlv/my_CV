@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style/normalize.css">
+    <link href="assets/sprite.svg">
     <link rel="stylesheet" href="style/style.css">
     <link rel="stylesheet" href="style/media.css">
 </head>
@@ -22,8 +23,12 @@
                 <li><a href="#footer">Contacts</a></li>
             </ul>
         </nav>
-        <img class="nav-burger" src="assets/ic_menu.svg" alt="menu icon">
-        <a class="btn btn-secondary btn-m btn-download" href="assets/CV_Product_Designer_Pavlo_Khokhlov.pdf" download="CV_Product_Designer_Pavlo_Khokhlov">Download CV</a>
+<!--        <img class="nav-burger" src="assets/ic_menu.svg" alt="menu icon" width="24" height="24">-->
+        <svg class="icon-24 nav-burger" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_menu"></use></svg>
+        <a class="btn btn-secondary btn-m btn-download" href="assets/CV_Product_Designer_Pavlo_Khokhlov.pdf" download="CV_Product_Designer_Pavlo_Khokhlov">
+            <svg class="icon-24" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_document-download"></use></svg>
+            Download CV
+        </a>
     </header>
     <main>
         <section id="hero-banner" class="container">
@@ -44,10 +49,12 @@
                 <a class="btn btn-primary btn-l" href="mailto:pvlxoxlov@gmail.com?subject=Job Opportunity">Contact Me</a>
                 <div class="links-social">
                     <a class="btn btn-secondary btn-l btn-ic" href="https://www.linkedin.com/in/pavlo-khokhlov/" target="_blank">
-                        <img src="assets/ic_social-in.svg" alt="linkedin icon">
+<!--                        <img src="assets/ic_social-in.svg" alt="linkedin icon" width="24" height="24">-->
+                            <svg class="icon-24" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_social-in"></use></svg>
                     </a>
                     <a class="btn btn-secondary btn-l btn-ic" href="https://www.behance.net/khokhlow" target="_blank">
-                        <img src="assets/ic_social-be.svg" alt="behance icon">
+<!--                        <img src="assets/ic_social-be.svg" alt="behance icon" width="24" height="24">-->
+                        <svg class="icon-24" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_social-be"></use></svg>
                     </a>
                 </div>
             </div>
@@ -131,7 +138,10 @@
             <div class="more-projects">
                 <p class="h1-alike">More projects on Behance and in CV</p>
                 <div class="buttons-wrapper">
-                    <a class="btn btn-primary btn-l btn-download" href="assets/CV_Product_Designer_Pavlo_Khokhlov.pdf" download="CV_Product_Designer_Pavlo_Khokhlov">Download CV</a>
+                    <a class="btn btn-primary btn-l btn-download" href="assets/CV_Product_Designer_Pavlo_Khokhlov.pdf" download="CV_Product_Designer_Pavlo_Khokhlov">
+                        <svg class="icon-24" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_document-download-bk"></use></svg>
+                        Download CV
+                    </a>
                     <a class="btn btn-secondary btn-l" href="https://www.behance.net/khokhlow" target="_blank">View Behance</a>
                 </div>
             </div>
@@ -140,18 +150,48 @@
             <h2>My Expectations</h2>
             <div class="expectations-wrapper">
                 <ul class="expectation exp-negative">
-                    <li>Contract job, design agency.</li>
-                    <li>Creation of many products from scratch with too tight deadlines.</li>
-                    <li>Landing pages pipeline.</li>
-                    <li>Just closing JIRA tickets.</li>
-                    <li>Retailtech (E-commerce), Proptech, Foodtech, Healthtech.</li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-x-list"></use></svg>
+                        <span>Contract job, design agency.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-x-list"></use></svg>
+                        <span>Creation of many products from scratch with too tight deadlines.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-x-list"></use></svg>
+                        <span>Landing pages pipeline.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-x-list"></use></svg>
+                        <span>Just closing JIRA tickets.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-x-list"></use></svg>
+                        <span>Retailtech (E-commerce), Proptech, Foodtech, Healthtech.</span>
+                    </li>
                 </ul>
                 <ul class="expectation exp-positive">
-                    <li>Full-time remote job, product.</li>
-                    <li>A/B testing. Improvement of an existing product and its projects.</li>
-                    <li>A bit of landing pages.</li>
-                    <li>Big picture thinking.</li>
-                    <li>Fintech, Wealthtech, Edtech, Madtech Regtech, Legaltech.</li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-check-list"></use></svg>
+                        <span>Full-time remote job, product.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-check-list"></use></svg>
+                        <span>A/B testing. Improvement of an existing product and its projects.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-check-list"></use></svg>
+                        <span>A bit of landing pages.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-check-list"></use></svg>
+                        <span>Big picture thinking.</span>
+                    </li>
+                    <li>
+                        <svg class="icon-32" viewBox="0 0 32 32"><use xlink:href="assets/sprite.svg#ic_circle-check-list"></use></svg>
+                        <span>Fintech, Wealthtech, Edtech, Madtech Regtech, Legaltech.</span>
+                    </li>
                 </ul>
             </div>
         </section>
@@ -202,13 +242,18 @@
     <footer id="footer" class="container">
         <div class="footer-links">
             <a class="btn btn-primary btn-l" href="#">Contact Me</a>
-            <a class="btn btn-secondary btn-l btn-download" href="mailto:pvlxoxlov@gmail.com?subject=Job Opportunity">Download CV</a>
+            <a class="btn btn-secondary btn-l btn-download" href="mailto:pvlxoxlov@gmail.com?subject=Job Opportunity">
+                <svg class="icon-24" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_document-download"></use></svg>
+                Download CV
+            </a>
             <div class="links-social">
                 <a class="btn btn-secondary btn-l btn-ic" href="https://www.linkedin.com/in/pavlo-khokhlov/" target="_blank">
-                    <img src="assets/ic_social-in.svg" alt="linkedin icon">
+<!--                    <img src="assets/ic_social-in.svg" alt="linkedin icon" width="24" height="24">-->
+                    <svg class="icon-24" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_social-in"></use></svg>
                 </a>
                 <a class="btn btn-secondary btn-l btn-ic" href="https://www.behance.net/khokhlow" target="_blank">
-                    <img src="assets/ic_social-be.svg" alt="behance icon">
+<!--                    <img src="assets/ic_social-be.svg" alt="behance icon" width="24" height="24">-->
+                    <svg class="icon-24" viewBox="0 0 24 24"><use xlink:href="assets/sprite.svg#ic_social-be"></use></svg>
                 </a>
             </div>
         </div>
