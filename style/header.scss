@@ -1,0 +1,65 @@
+@import "variables";
+
+/* HEADER */
+header,
+.nav-links,
+.main-nav  {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.container {
+  margin: 40px auto 24px;
+}
+
+.nav-burger {
+  padding: 11px 11px;
+  display: none;
+  background-color: $surface-default;
+  border: 1px solid $border-subtle;
+  border-radius: 48px;
+}
+
+
+.main-nav {
+  transition: all 0.3s ease;
+  background-color: $surface-default;
+  border: 1px solid $border-subtle;
+  border-radius: 48px;
+  &.nav-active {
+    display: flex;
+  }
+  &:hover {
+    border: 1px solid $border-default;
+    background-color: $surface-subtle;
+  }
+  .nav-links{
+  }
+  .nav-links {
+    padding: 0 16px;
+    list-style: none;
+    gap: 16px;
+    li {
+      a {
+        display: inline-block;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 16px 8px;
+        color: $text-caption;
+        text-decoration: none;
+        transition: all 0.3s ease;
+
+        &:hover {
+          color: $text-body;
+        }
+      }
+
+    }
+
+    &:hover {
+      //border-color: $border-default;
+    }
+
+  }
+}

@@ -1,0 +1,58 @@
+/* FONT */
+/* COLORS: PRIMITIVES */
+/* COLORS: SEMANTIC */
+/* COLORS: GREY */
+/* COLORS: PRIMARY */
+/* HEADER */
+header,
+.nav-links,
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header.container {
+  margin: 40px auto 24px;
+}
+
+.nav-burger {
+  padding: 11px 11px;
+  display: none;
+  background-color: #1D1D1B;
+  border: 1px solid #3A3A36;
+  border-radius: 48px;
+}
+
+.main-nav {
+  transition: all 0.3s ease;
+  background-color: #1D1D1B;
+  border: 1px solid #3A3A36;
+  border-radius: 48px;
+}
+.main-nav.nav-active {
+  display: flex;
+}
+.main-nav:hover {
+  border: 1px solid #565752;
+  background-color: #10100F;
+}
+.main-nav .nav-links {
+  padding: 0 16px;
+  list-style: none;
+  gap: 16px;
+}
+.main-nav .nav-links li a {
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 16px 8px;
+  color: #BCBDB9;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+.main-nav .nav-links li a:hover {
+  color: #E9E9E7;
+}
+
+/*# sourceMappingURL=header.css.map */

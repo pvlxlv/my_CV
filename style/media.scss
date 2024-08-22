@@ -4,14 +4,21 @@ $size-56: 56px;
 
 @media screen and (max-width: 1260px){
   .container {
-    padding: 0 $size-56;
+    padding-left: $size-56;
+    padding-right: $size-56;
   }
 }
 
 @media screen and (max-width: 992px){
   .container {
-    padding: 0 $size-56;
+    padding-left: $size-56;
+    padding-right: $size-56;
     position: relative;
+  }
+
+  section.container {
+    padding-top: $size-56;
+    padding-bottom: $size-56;
   }
 
   .nav-burger {
@@ -25,6 +32,9 @@ $size-56: 56px;
     inset: 0;
     top: 280px;
     border: none;
+    &:hover {
+      border: none;
+    }
     .nav-links {
       width: 100%;
       flex-direction: column;
@@ -43,6 +53,30 @@ $size-56: 56px;
       }
     }
   }
+  #key-skills {
+    .skills-container {
+      article {
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+  }
+  #projects {
+    .project {
+      gap: 32px;
+      .details-image {
+        max-width: 220px;
+        padding-top: 40px;
+        img {
+          width: 220px;
+          height: 174px;
+        }
+        .caption {
+          font-size: 9px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 769px) {
@@ -52,6 +86,7 @@ $size-56: 56px;
   h1 {
     margin-bottom: 16px;
   }
+
   #hero-banner {
     .banner-description {
       .main {
@@ -70,45 +105,130 @@ $size-56: 56px;
       }
     }
   }
+  #key-skills {
+    .skills-container {
+      flex-direction: column;
+      article {
+        flex-direction: row;
+        gap: 32px;
+      }
+    }
+  }
+  #projects {
+    .project {
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-bottom: 40px;
+      gap: 32px;
+      .details-image {
+        display: none;
+      }
+    }
+  }
+  #projects {
+    .more-projects {
+      .h1-alike {
+        line-height: 120%;
+        font-size: 64px;
+      }
+    }
+  }
+  #my-expectations {
+    .expectations-wrapper {
+      flex-direction: column-reverse;
+      font-size: 16px;
+      font-weight: 300;
+      line-height: 24px;
+      .expectation {
+        padding: 48px;
+        li {
+          padding-left: 30px;
+          margin-bottom: 16px;
+          &:before {
+            width: 24px;
+            height: 24px;
+            background-size: cover;
+          }
+        }
+      }
+    }
+  }
+  #education {
+    .edu-items {
+      padding-top: 16px;
+      .edu-item {
+        padding: 0;
+        margin-bottom: 24px;
+        .edu-wrapper {
+          padding: 16px 56px;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 520px){
   h1 {
     font-size: 64px;
-
   }
   h2 {
     font-size: 32px;
   }
-
   .container {
     padding: 0 24px;
   }
 
   #hero-banner {
-    padding-top: $size-56;
-    padding-bottom: $size-56;
     .banner-intro {
       margin-bottom: 40px;
     }
     .banner-links {
-      flex-direction: column;
-      justify-content: center;
+      //flex-direction: column;
+      //justify-content: center;
+      flex-wrap: wrap;
       gap: 32px;
       a {
         justify-content: center;
-      }
-      .btn-ic{
-
+        width: 100%;
       }
     }
   }
-
-
+  #key-skills {
+    .skills-container {
+      flex-direction: column;
+      article {
+        flex-direction: column;
+        gap: 16px;
+      }
+    }
+  }
+  #projects {
+    .project {
+      padding-left: 32px;
+      padding-right: 32px;
+      padding-bottom: 40px;
+      flex-direction: column-reverse;
+    }
+    .more-projects {
+      .h1-alike {
+        line-height: 120%;
+        font-size: 56px;
+      }
+      .buttons-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        a {
+          display: flex;
+          justify-content: center;
+          width: 100%;
+        }
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 360px){
-
   h1 {
     font-size: 56px;
   }
@@ -118,6 +238,12 @@ $size-56: 56px;
   .container {
     padding: 0 16px;
   }
-
-
+  #projects {
+    .more-projects {
+      .h1-alike {
+        line-height: 120%;
+        font-size: 48px;
+      }
+    }
+  }
 }

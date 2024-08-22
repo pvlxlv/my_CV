@@ -1,0 +1,44 @@
+@import "variables";
+
+/* EDICATION */
+
+#education {
+  .edu-items {
+    padding-top: 40px;
+    .edu-item{
+      margin-bottom: 64px;
+      padding: 0 88px;
+      .edu-wrapper{
+        border-left: 2px solid $primary-800;
+        padding: 32px 56px 32px 88px;
+        .period{
+          font-weight: 200;
+          font-size: 12px;
+          line-height: 133%;
+          color: $text-caption;
+        }
+        .title {
+          font-weight: 400;
+          font-size: 32px;
+          line-height: 137%;
+          color: $text-title;
+        }
+        .sub-title {
+          font-weight: 200;
+          font-size: 16px;
+          line-height: 150%;
+          color: $text-disabled;;
+          margin-bottom: 24px;
+        }
+        .description {
+          font-weight: 300;
+          font-size: 16px;
+          line-height: 180%;
+          color: $text-body;
+        }
+      }
+
+    }
+
+  }
+}

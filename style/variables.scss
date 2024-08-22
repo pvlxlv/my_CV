@@ -65,3 +65,8 @@ $border-primary-subtle: $primary-800;
 $text-primary-lighter: $primary-300;
 $text-primary-default: $primary-500;
 $text-primary-darker: $primary-600;
+
+
+%border-shared {
+  border: 2px solid $border-subtle;
+}

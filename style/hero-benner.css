@@ -1,0 +1,46 @@
+/* FONT */
+/* COLORS: PRIMITIVES */
+/* COLORS: SEMANTIC */
+/* COLORS: GREY */
+/* COLORS: PRIMARY */
+/* HERO BANNER */
+#hero-banner p {
+  color: #73746C;
+  font-weight: 200;
+}
+#hero-banner .sub-text {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 8px;
+}
+#hero-banner .banner-intro {
+  margin-bottom: 64px;
+}
+#hero-banner .banner-description {
+  margin-bottom: 104px;
+}
+#hero-banner .banner-description .main {
+  font-size: 20px;
+  line-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+#hero-banner .banner-description .main p {
+  flex-grow: 1;
+  flex-basis: 0;
+}
+#hero-banner .banner-description .main span {
+  color: #D2D3CF;
+}
+#hero-banner .banner-links {
+  display: flex;
+  gap: 32px;
+}
+#hero-banner .banner-links .links-social {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=hero-benner.css.map */

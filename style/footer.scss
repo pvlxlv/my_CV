@@ -1,0 +1,23 @@
+@import "variables";
+
+/* FOOTER */
+
+#footer {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 32px;
+  //align-items: center;
+  padding-bottom: 80px;
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 32px;
+  }
+  p {
+    display: flex;
+    align-items: center;
+    height: 72px;
+  }
+}

@@ -1,0 +1,58 @@
+/* FONT */
+/* COLORS: PRIMITIVES */
+/* COLORS: SEMANTIC */
+/* COLORS: GREY */
+/* COLORS: PRIMARY */
+.btn {
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 56px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.btn-m {
+  font-size: 14px;
+  padding: 11px 36px;
+}
+
+.btn-l {
+  font-size: 14px;
+  padding: 24px 56px;
+}
+
+.btn-ic {
+  padding: 23px;
+}
+
+.btn-primary {
+  color: #1D1D1B;
+  background-color: #DBFF00;
+}
+.btn-primary:hover {
+  background-color: #EBFF66;
+}
+
+.btn-secondary {
+  color: #DBFF00;
+  border: 1px solid #DBFF00;
+  background-color: #171900;
+}
+.btn-secondary:hover {
+  color: #EBFF66;
+  border: 1px solid #EBFF66;
+  background-color: #2D3300;
+}
+
+.btn-download:before {
+  content: "";
+  margin-right: 2px;
+  width: 24px;
+  height: 24px;
+  background-image: url("../assets/ic_document-download.svg");
+}
+
+/*# sourceMappingURL=buttons.css.map */

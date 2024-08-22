@@ -1,0 +1,65 @@
+/* FONT */
+/* COLORS: PRIMITIVES */
+/* COLORS: SEMANTIC */
+/* COLORS: GREY */
+/* COLORS: PRIMARY */
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #10100F;
+  color: #E9E9E7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+section h2 {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 82px;
+  line-height: 120%;
+  color: #F5F5F4;
+  background: linear-gradient(58deg, #bcbdb9 0%, #f5f5f4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 120%;
+  color: #D2D3CF;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #F5F5F4;
+}
+
+.fixed-position {
+  overflow: hidden;
+}
+
+/*# sourceMappingURL=general.css.map */

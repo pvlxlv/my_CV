@@ -1,0 +1,43 @@
+@import "variables";
+
+/* HERO BANNER */
+#hero-banner {
+  p {
+    color: $text-disabled;
+    font-weight: 200;
+  }
+  .sub-text {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 8px;
+  }
+  .banner-intro {
+    margin-bottom: 64px;
+  }
+  .banner-description {
+    .main {
+      font-size: 20px;
+      line-height: 32px;
+      display: flex;
+      justify-content: space-between;
+      gap: 64px;
+      p {
+        flex-grow: 1;
+        flex-basis: 0;
+      }
+      span {
+        color: $text-subtitle;
+      }
+    }
+    margin-bottom: 104px;
+  }
+  .banner-links {
+    display: flex;
+    gap: 32px;
+    //.links-social {
+    //  display: flex;
+    //  gap: 32px;
+    //  justify-content: center;
+    //}
+  }
+}

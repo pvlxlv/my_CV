@@ -1,0 +1,66 @@
+@import "variables";
+
+/* GENERAL */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-family;
+  background-color: $surface-subtle;
+  color: $text-body;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section.container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+section h2 {
+  margin-bottom: 40px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 82px;
+  line-height: 120%;
+  color: $text-title;
+  background: linear-gradient(58deg, #bcbdb9 0%, #f5f5f4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 52px;
+  line-height: 120%;
+  color: $text-subtitle;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: $text-title;
+}
+
+.fixed-position {
+  overflow: hidden;
+}
+
+.links-social {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}

@@ -1,0 +1,69 @@
+@import "variables";
+
+
+.btn {
+  font-weight: 500;
+  line-height: 24px;
+  border-radius: 56px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
+.btn-m {
+  font-size: 14px;
+  padding: 11px 36px;
+}
+
+.btn-l {
+  font-size: 14px;
+  padding: 24px 56px;
+}
+
+.btn-ic {
+  padding: 23px;
+}
+
+.btn-primary {
+  color: $text-negative;
+  background-color: $surface-primary-default;
+  &:hover {
+    background-color: $surface-primary-lighter;
+  }
+  &:active {
+    background-color: $surface-primary-darker;
+  }
+}
+
+.btn-secondary {
+  color: $text-primary-default;
+  border: 1px solid $border-primary-default;
+  background-color: $primary-950;
+  &:hover {
+    color: $text-primary-lighter;
+    border: 1px solid $border-primary-lighter;
+    background-color: $primary-900;
+  }
+  &:active {
+    color: $text-primary-darker;
+    border: 1px solid $border-primary-darker;
+    background-color: $surface-subtle;
+  }
+}
+
+.btn-download:before {
+  content: "";
+  margin-right: 2px;
+  width: 24px;
+  height: 24px;
+}
+
+.btn-secondary.btn-download:before {
+  background-image: url("../assets/ic_document-download.svg");
+}
+
+.btn-primary.btn-download:before {
+  background-image: url("../assets/ic_document-download-bk.svg");
+}

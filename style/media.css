@@ -7,13 +7,19 @@
 /* COLORS: PRIMARY */
 @media screen and (max-width: 1260px) {
   .container {
-    padding: 0 56px;
+    padding-left: 56px;
+    padding-right: 56px;
   }
 }
 @media screen and (max-width: 992px) {
   .container {
-    padding: 0 56px;
+    padding-left: 56px;
+    padding-right: 56px;
     position: relative;
+  }
+  section.container {
+    padding-top: 56px;
+    padding-bottom: 56px;
   }
   .nav-burger {
     display: initial;
@@ -25,6 +31,9 @@
     z-index: 2;
     inset: 0;
     top: 280px;
+    border: none;
+  }
+  .main-nav:hover {
     border: none;
   }
   .main-nav .nav-links {
@@ -43,6 +52,24 @@
   .main-nav .nav-links li a {
     width: 100%;
     font-size: 14px;
+  }
+  #key-skills .skills-container article {
+    flex-direction: column;
+    gap: 16px;
+  }
+  #projects .project {
+    gap: 32px;
+  }
+  #projects .project .details-image {
+    max-width: 220px;
+    padding-top: 40px;
+  }
+  #projects .project .details-image img {
+    width: 220px;
+    height: 174px;
+  }
+  #projects .project .details-image .caption {
+    font-size: 9px;
   }
 }
 @media screen and (max-width: 769px) {
@@ -66,6 +93,54 @@
   #hero-banner .banner-description .main p:before {
     content: "• ";
   }
+  #key-skills .skills-container {
+    flex-direction: column;
+  }
+  #key-skills .skills-container article {
+    flex-direction: row;
+    gap: 32px;
+  }
+  #projects .project {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 40px;
+    gap: 32px;
+  }
+  #projects .project .details-image {
+    display: none;
+  }
+  #projects .more-projects .h1-alike {
+    line-height: 120%;
+    font-size: 64px;
+  }
+  #my-expectations .expectations-wrapper {
+    flex-direction: column-reverse;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+  }
+  #my-expectations .expectations-wrapper .expectation {
+    padding: 48px;
+  }
+  #my-expectations .expectations-wrapper .expectation li {
+    padding-left: 30px;
+    margin-bottom: 16px;
+  }
+  #my-expectations .expectations-wrapper .expectation li:before {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+  }
+  #education .edu-items {
+    padding-top: 16px;
+  }
+  #education .edu-items .edu-item {
+    padding: 0;
+    margin-bottom: 24px;
+  }
+  #education .edu-items .edu-item .edu-wrapper {
+    padding: 16px 56px;
+  }
 }
 @media screen and (max-width: 520px) {
   h1 {
@@ -77,20 +152,43 @@
   .container {
     padding: 0 24px;
   }
-  #hero-banner {
-    padding-top: 56px;
-    padding-bottom: 56px;
-  }
   #hero-banner .banner-intro {
     margin-bottom: 40px;
   }
   #hero-banner .banner-links {
-    flex-direction: column;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 32px;
   }
   #hero-banner .banner-links a {
     justify-content: center;
+    width: 100%;
+  }
+  #key-skills .skills-container {
+    flex-direction: column;
+  }
+  #key-skills .skills-container article {
+    flex-direction: column;
+    gap: 16px;
+  }
+  #projects .project {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 40px;
+    flex-direction: column-reverse;
+  }
+  #projects .more-projects .h1-alike {
+    line-height: 120%;
+    font-size: 56px;
+  }
+  #projects .more-projects .buttons-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+  }
+  #projects .more-projects .buttons-wrapper a {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }
 @media screen and (max-width: 360px) {
@@ -102,6 +200,10 @@
   }
   .container {
     padding: 0 16px;
+  }
+  #projects .more-projects .h1-alike {
+    line-height: 120%;
+    font-size: 48px;
   }
 }
 
