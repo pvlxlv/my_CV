@@ -321,7 +321,7 @@ header.container {
   justify-content: space-between;
   gap: 72px;
   border-radius: 40px;
-  padding: 54px 56px 32px 56px;
+  padding: 56px;
   margin-bottom: 56px;
 }
 #projects .project .details-text {
@@ -380,7 +380,7 @@ header.container {
 #projects .project .details-text .project-link-wrapper .project-link {
   font-weight: 300;
   letter-spacing: 0.2px;
-  text-underline-offset: 4px;
+  text-underline-offset: 8px;
   font-size: 16px;
   line-height: 150%;
   color: #DBFF00;
